@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #231d2da0;
+}
+
+.panel{
+
+    display: inline-block;
+    width: 80%;
+    height: 90vh;
+    margin-top: 5vh;
+    /* background-color: gray; */
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 15px;
+    color: #fff;
+    height: 100%;
+    /* background-color: green */
+}
+
+.info{
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+.info h1{
+    font-size: 40px;
+    text-align: left;
+}
+
+.info p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.download{
+    float: left;
+    text-decoration: none;
+    background-color: #554274;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+.minecraft-photo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 700px;
+}
